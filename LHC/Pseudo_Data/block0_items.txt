@@ -1,0 +1,92 @@
+HDF5 "data_lowLumi_pt_250_500.h5" {
+DATASET "/data/block0_items" {
+   DATATYPE  H5T_STRING {
+      STRSIZE 10;
+      STRPAD H5T_STR_NULLTERM;
+      CSET H5T_CSET_ASCII;
+      CTYPE H5T_C_S1;
+   }
+   DATASPACE  SIMPLE { ( 14 ) / ( 14 ) }
+   DATA {
+      "pt", "eta", "phi", "mass", "ee2", "ee3", "d2", "angularity", "t1", "t2", "t3", "t21", "t32", "KtDeltaR"
+   }
+   ATTRIBUTE "CLASS" {
+      DATATYPE  H5T_STRING {
+         STRSIZE 5;
+         STRPAD H5T_STR_NULLTERM;
+         CSET H5T_CSET_UTF8;
+         CTYPE H5T_C_S1;
+      }
+      DATASPACE  SCALAR
+      DATA {
+         "ARRAY"
+      }
+   }
+   ATTRIBUTE "FLAVOR" {
+      DATATYPE  H5T_STRING {
+         STRSIZE 5;
+         STRPAD H5T_STR_NULLTERM;
+         CSET H5T_CSET_UTF8;
+         CTYPE H5T_C_S1;
+      }
+      DATASPACE  SCALAR
+      DATA {
+         "numpy"
+      }
+   }
+   ATTRIBUTE "TITLE" {
+      DATATYPE  H5T_STRING {
+         STRSIZE 1;
+         STRPAD H5T_STR_NULLTERM;
+         CSET H5T_CSET_UTF8;
+         CTYPE H5T_C_S1;
+      }
+      DATASPACE  NULL
+      DATA {
+      }
+   }
+   ATTRIBUTE "VERSION" {
+      DATATYPE  H5T_STRING {
+         STRSIZE 3;
+         STRPAD H5T_STR_NULLTERM;
+         CSET H5T_CSET_UTF8;
+         CTYPE H5T_C_S1;
+      }
+      DATASPACE  SCALAR
+      DATA {
+         "2.4"
+      }
+   }
+   ATTRIBUTE "kind" {
+      DATATYPE  H5T_STRING {
+         STRSIZE 6;
+         STRPAD H5T_STR_NULLTERM;
+         CSET H5T_CSET_UTF8;
+         CTYPE H5T_C_S1;
+      }
+      DATASPACE  SCALAR
+      DATA {
+         "string"
+      }
+   }
+   ATTRIBUTE "name" {
+      DATATYPE  H5T_STRING {
+         STRSIZE 2;
+         STRPAD H5T_STR_NULLTERM;
+         CSET H5T_CSET_ASCII;
+         CTYPE H5T_C_S1;
+      }
+      DATASPACE  SCALAR
+      DATA {
+         "N."
+      }
+   }
+   ATTRIBUTE "transposed" {
+      DATATYPE  H5T_STD_B8LE
+      DATASPACE  SCALAR
+      DATA {
+         0x01
+      }
+   }
+}
+}
